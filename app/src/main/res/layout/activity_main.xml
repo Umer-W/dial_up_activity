@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="611dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#93315D"
+            android:text="one"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C3AC37"
+            android:text="two"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AF3636"
+            android:text="three"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2E53BA"
+            android:text="four"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B534B3"
+            android:text="five"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C57840"
+            android:text="six"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A59743"
+            android:text="seven"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4B8824"
+            android:text="eight"
+            app:cornerRadius="19sp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CA0F0F"
+            android:text="nine"
+            app:cornerRadius="19sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
